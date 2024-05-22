@@ -1,5 +1,6 @@
 # nlp-medecine
 运行步骤：
+
 1.运行combine.py将book.docx中的常规结构病情和表格结构病情提取出来，保存到combined_data.json文件中。
 
 2.运行json_clean1.py将combined.py文件中两种类型的json合并，同时去除处理原则中和id中含有第**节字样的部分，保存至cleaned1_data.json文件中。
